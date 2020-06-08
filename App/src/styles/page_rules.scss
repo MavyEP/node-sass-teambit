@@ -1,0 +1,7 @@
+body {
+  height: auto;
+}
+
+.container {
+  @include container_width;
+}

@@ -1,0 +1,59 @@
+.head-flex {
+  @include flex(row , flex-start , center);
+  height: 75px;
+  color: $text_color;
+  border-bottom: $border_sections_bottom;
+
+  .head_nav {
+    height: 35px;
+    width: 50%;
+  }
+
+  .nav_left {
+    @include flex(row, flex-start , baseline );
+
+    div {
+      height: 35px;
+      width: 110px;
+      background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
+      background-position: left center;
+      background-repeat: no-repeat;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .nav_right {
+    @include flex(row, flex-end , center);
+
+    ul  {
+      list-style-type: none;
+      display: inline-block;
+      margin: 0;
+
+        li {
+              display: inline;
+              font-family: $font_roboto_slab;
+              font-size: 13px;
+              &:hover {
+                cursor: pointer;
+              }
+
+              span {
+                padding-left: 5px;
+              }
+
+              a {
+                @include button($text_color , none);
+              }
+        }
+    }
+  }
+}
+
+
+.margin_left {
+  margin-left: 40px;
+}

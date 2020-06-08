@@ -1,0 +1,27 @@
+
+
+@mixin container_width {
+  width: 1150px;
+  margin: auto;
+}
+
+@mixin flex($direction , $justify , $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin button($color , $colorbackground) {
+  text-decoration: none;
+  color: $color;
+  border: $botton_blue_border;
+  background-color: $colorbackground;
+  padding: 8px 13px;
+  border-radius: 6px;
+  img {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+  }
+}
