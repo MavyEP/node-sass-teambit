@@ -1,0 +1,29 @@
+.third_section {
+  height: 1000px;
+
+
+  .third_section_objects {
+    margin-top: 100px;
+    font-family: $font_roboto_slab;
+
+    .first_line {
+      margin-bottom: 100px;
+        @include sec_third(row , 26px , 16px , right ,left);
+    }
+
+    .second_line {
+      margin-bottom: 100px;
+        @include sec_third(row-reverse , 32px , 20px , left , right);
+    }
+
+    .third_line {
+      margin-bottom: 100px;
+        @include sec_third(row , 32px , 16px , right , left);
+    }
+
+    .fourth_line {
+      margin-bottom: 100px;
+        @include sec_third(row-reverse , 32px , 20px , left , right);
+    }
+  }
+}

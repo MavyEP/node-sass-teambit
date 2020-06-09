@@ -606,3 +606,248 @@ body {
   border: none;
 }
 
+.third_section {
+  height: 1000px;
+}
+
+.third_section .third_section_objects {
+  margin-top: 100px;
+  font-family: "Roboto Slab", serif;
+}
+
+.third_section .third_section_objects .first_line {
+  margin-bottom: 100px;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_img {
+  width: 50%;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text {
+  width: 25%;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_img {
+  text-align: right;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_img img {
+  max-width: 768px;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text h2 {
+  font-size: 26px;
+  line-height: 1.4;
+  color: #58402c;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text p {
+  line-height: 1.5;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 24px;
+  display: block;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text div a i {
+  color: #30488f;
+  padding-left: 3px;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text div img {
+  padding: 40px 150px 0;
+  max-width: 270px;
+}
+
+.third_section .third_section_objects .first_line .third_first_sec .sec_text div {
+  text-align: left;
+}
+
+.third_section .third_section_objects .second_line {
+  margin-bottom: 100px;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_img {
+  width: 50%;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text {
+  width: 25%;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_img {
+  text-align: left;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_img img {
+  max-width: 768px;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  color: #58402c;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text p {
+  line-height: 1.5;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 24px;
+  display: block;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text div a i {
+  color: #30488f;
+  padding-left: 3px;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text div img {
+  padding: 40px 150px 0;
+  max-width: 270px;
+}
+
+.third_section .third_section_objects .second_line .third_first_sec .sec_text div {
+  text-align: right;
+}
+
+.third_section .third_section_objects .third_line {
+  margin-bottom: 100px;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_img {
+  width: 50%;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text {
+  width: 25%;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_img {
+  text-align: right;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_img img {
+  max-width: 768px;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  color: #58402c;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text p {
+  line-height: 1.5;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 24px;
+  display: block;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text div a i {
+  color: #30488f;
+  padding-left: 3px;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text div img {
+  padding: 40px 150px 0;
+  max-width: 270px;
+}
+
+.third_section .third_section_objects .third_line .third_first_sec .sec_text div {
+  text-align: left;
+}
+
+.third_section .third_section_objects .fourth_line {
+  margin-bottom: 100px;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_img {
+  width: 50%;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text {
+  width: 25%;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_img {
+  text-align: left;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_img img {
+  max-width: 768px;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  color: #58402c;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text p {
+  line-height: 1.5;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 24px;
+  display: block;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text div a i {
+  color: #30488f;
+  padding-left: 3px;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text div img {
+  padding: 40px 150px 0;
+  max-width: 270px;
+}
+
+.third_section .third_section_objects .fourth_line .third_first_sec .sec_text div {
+  text-align: right;
+}
+
