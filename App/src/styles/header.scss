@@ -2,7 +2,6 @@
   @include flex(row , flex-start , center);
   height: 75px;
   color: $text_color;
-  border-bottom: $border_sections_bottom;
 
   .head_nav {
     height: 35px;
@@ -46,7 +45,7 @@
               }
 
               a {
-                @include button($text_color , none);
+                @include button($botton_blue , none , 8px 13px , 12px);
               }
         }
     }

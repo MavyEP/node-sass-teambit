@@ -395,7 +395,6 @@ body {
   align-items: center;
   height: 75px;
   color: #58402c;
-  border-bottom: 1px solid #58402c;
 }
 
 .head-flex .head_nav {
@@ -451,20 +450,103 @@ body {
 
 .head-flex .nav_right ul li a {
   text-decoration: none;
-  color: #58402c;
+  color: #30488f;
   border: 1px solid #30488f;
   background-color: none;
   padding: 8px 13px;
   border-radius: 6px;
+  font-size: 12px;
 }
 
 .head-flex .nav_right ul li a img {
   height: 18px;
   width: 18px;
   vertical-align: middle;
+  padding-right: 5px;
 }
 
 .margin_left {
   margin-left: 40px;
+}
+
+.first_sec_objects {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: 1px solid #58402c;
+  color: #58402c;
+}
+
+.first_sec_objects .first_sec_left,
+.first_sec_objects .first_sec_right {
+  width: 50%;
+}
+
+.first_sec_objects .first_sec_left {
+  font-family: "Roboto Slab", serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.first_sec_objects .first_sec_left h1 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  padding-right: 10px;
+}
+
+.first_sec_objects .first_sec_left p {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  padding-right: 50px;
+}
+
+.first_sec_objects .first_sec_left div a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #30488f;
+  background-color: #30488f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  display: inline;
+}
+
+.first_sec_objects .first_sec_left div a img {
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.first_sec_objects .first_sec_left div span {
+  padding: 0 10px;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.first_sec_objects .first_sec_left a {
+  text-decoration: none;
+  color: #58402c;
+  font-size: 14px;
+  display: block;
+  padding: 30px 0px;
+}
+
+.first_sec_objects .first_sec_left a i {
+  color: #58402c;
+  padding-left: 2px;
+}
+
+.first_sec_objects .first_sec_right {
+  margin-top: 100px;
+}
+
+.first_sec_objects .first_sec_right img {
+  max-width: 570px;
 }
 

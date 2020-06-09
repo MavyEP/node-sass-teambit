@@ -12,16 +12,29 @@
   align-items: $align;
 }
 
-@mixin button($color , $colorbackground) {
+@mixin button($color , $colorbackground , $padding , $font_size) {
   text-decoration: none;
   color: $color;
   border: $botton_blue_border;
   background-color: $colorbackground;
-  padding: 8px 13px;
+  padding: $padding;
   border-radius: 6px;
+  font-size: $font_size;
   img {
     height: 18px;
     width: 18px;
     vertical-align: middle;
+    padding-right: 5px;
   }
+}
+
+@mixin links($color , $font_size , $icon-padding , $display) {
+  text-decoration: none;
+  color: $color;
+  font-size: $font_size;
+  display: $display;
+   i {
+     color: $color;
+     padding-left: $icon-padding;
+   }
 }
