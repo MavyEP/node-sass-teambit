@@ -485,8 +485,8 @@ body {
 
 .first_sec_objects .first_sec_left {
   font-family: "Roboto Slab", serif;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 200px;
 }
 
 .first_sec_objects .first_sec_left h1 {
@@ -548,5 +548,61 @@ body {
 
 .first_sec_objects .first_sec_right img {
   max-width: 570px;
+}
+
+.second_section {
+  background-color: #ffe7d2;
+  color: #58402c;
+  font-family: "Roboto Slab", serif;
+}
+
+.second_section .second_section_objects .figures_cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.second_section .second_section_objects .figures_cont .figure {
+  width: 250px;
+}
+
+.second_section .second_section_objects .figures_cont .figure img {
+  width: 150px;
+}
+
+.second_section .second_section_objects .figures_cont .figure p {
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.second_section .second_section_objects h2 {
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0px 280px 50px;
+  padding-top: 100px;
+}
+
+.second_section .second_section_objects .bunny {
+  text-align: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #58402c;
+}
+
+.second_section .second_section_objects .bunny img {
+  height: 280px;
+}
+
+#cat_img {
+  width: 60px;
+}
+
+#reset_border {
+  border: none;
 }
 

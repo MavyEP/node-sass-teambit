@@ -9,15 +9,15 @@
 
   .first_sec_left {
     font-family: $font_roboto_slab;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 
 
         h1 {
           font-size: 50px;
           margin: 0;
           margin-bottom: 30px;
-          line-height: 1.4;
+          line-height: $h_lineheight;
           padding-right: 10px;
         }
 
@@ -25,7 +25,7 @@
           font-size: 20px;
           margin: 0;
           margin-bottom: 40px;
-          line-height: 1.5;
+          line-height: $text_lineheight;
           padding-right: 50px;
         }
 

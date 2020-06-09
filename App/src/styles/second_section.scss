@@ -1,0 +1,36 @@
+.second_section {
+  background-color: $background_sections_color;
+  color: $text_color;
+  font-family: $font_roboto_slab;
+
+  .second_section_objects {
+    @include figures(150px);
+
+        h2 {
+          margin: 0;
+          text-align: center;
+          line-height: $h_lineheight;
+          margin: 0px 280px 50px;
+          padding-top: 100px;
+        }
+
+
+        .bunny {
+          text-align: center;
+          padding-bottom: 100px;
+          border-bottom: 1px solid #58402c;
+
+              img {
+                height: $bunny_height;
+              }
+        }
+  }
+}
+
+#cat_img {
+  width: 60px;
+}
+
+#reset_border {
+  border: none;
+}

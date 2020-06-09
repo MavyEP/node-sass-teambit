@@ -38,3 +38,29 @@
      padding-left: $icon-padding;
    }
 }
+
+@mixin figures($height){
+  .figures_cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+
+        .figure {
+          width: 250px;
+
+          img{
+            width: $height;
+          }
+
+          p {
+            line-height: $text_lineheight;
+            margin: 0;
+            padding: 20px 0;
+          }
+        }
+  }
+}
